@@ -1,6 +1,21 @@
 const prompt = require("prompt-sync")();
 
+const ROWS = 3;
+const COLS = 3;
 
+const SYMBOLS_COUNT = {
+    A: 2,
+    B: 4,
+    C: 6,
+    D: 8
+}
+
+const SYMBOL_VALUES = {
+    A: 5,
+    B: 4,
+    C: 3,
+    D: 2
+}
 
 
 
@@ -47,6 +62,15 @@ const  getBet = (balance, lines) => {
     } 
 
 }
+
+const spin = () => {
+    const symbols = [];
+    for (const [symbol, count] of Object.entries(SYMBOLS_COUNT)){
+        for (let i = 0; i < COLS, i++){
+
+        }
+    }
+} 
 
 
 
